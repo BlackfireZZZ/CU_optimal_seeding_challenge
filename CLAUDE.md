@@ -65,18 +65,42 @@ LATER = {
 
 ## File Index
 
+### Core (read these)
+
 | File | Purpose | When to read |
 |------|---------|--------------|
 | **CLAUDE.md** | This file — entry point | Always (loaded by default) |
-| **SOLUTION_REPORT.md** | Current 134K solution details, seed list, dead ends | When building on current solution |
+| **SOLUTION_REPORT.md** | Current 134K solution, seed list, dead ends | When building on current solution |
 | **COMPETITION.md** | Official rules, submission format, baseline code | When checking constraints |
-| **DEEP_GRAPH_ANALYSIS.md** | 20-section reference: communities, cascades, gateways, all 33 profitable seeds | When searching for new seeds or understanding graph structure |
-| **SENSITIVITY_ANALYSIS.md** | Threshold sensitivity, seed interactions, robustness | When evaluating strategy changes |
-| **deep_analysis_data.json** | Machine-readable: node scores, communities, optimal seeds | When writing code that needs node data |
-| **solution.py** | Current solver (v5): full pipeline from graph → submission.csv | When modifying the solver |
-| **GRAPH_ANALYSIS.md** | Basic graph stats (superseded by DEEP_GRAPH_ANALYSIS) | Rarely — quick reference only |
-| **RESEARCH.md** | Academic IM background (Kempe, CELF, CI) | When exploring new algorithmic approaches |
-| **PLAN.md** | Historical work plan | Low priority — mostly done |
+| **solution.py** | Current solver (v5): graph → submission.csv | When modifying the solver |
+| **deep_analysis_data.json** | Machine-readable node scores, communities, seeds | When writing code that needs data |
+
+### Analysis (reference)
+
+| File | Purpose | When to read |
+|------|---------|--------------|
+| **DEEP_GRAPH_ANALYSIS.md** | 20-section reference: all 33 seeds, communities, cascades | Searching for new seeds / graph structure |
+| **SENSITIVITY_ANALYSIS.md** | Threshold sensitivity, seed overlaps, robustness | Evaluating strategy changes |
+| **RESEARCH.md** | Academic IM background (Kempe, CELF, CI) | Exploring new algorithmic approaches |
+| **GRAPH_ANALYSIS.md** | Basic graph stats (superseded by DEEP) | Quick reference only |
+
+### Scripts
+
+| File | Purpose |
+|------|---------|
+| `solution.py` | Main solver — produces submission.csv |
+| `enrichment_analysis.py` | Sensitivity/robustness analysis |
+| `deep_graph_analysis.py` | Deep structural analysis |
+| `cascade_deep_analysis.py` | Cascade simulation analysis |
+| `analyze_graph.py` | Basic graph analysis |
+
+### Other directories
+
+| Path | Contents |
+|------|----------|
+| `data/` | Graph file (`marketing_edges.txt`) |
+| `viz/` | Generated visualizations (PNG charts) |
+| `secret_ivent/` | Fenix's solution iterations (local_improve.py, submissions) |
 
 ## Submission Format
 
