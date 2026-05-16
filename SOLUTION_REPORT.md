@@ -1,5 +1,8 @@
 # Solution Report — Network Influence Profit Challenge
 
+> **This is the authoritative current state.** Other analysis files contain historical data
+> from earlier iterations (90K strategy). This file reflects the actual 134K submission.
+
 **Current Score: 134,150 rubles**  
 **Leaderboard #1: 140,750 rubles**  
 **Gap: ~6,600 rubles**
