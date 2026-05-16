@@ -1,0 +1,479 @@
+{
+  "result": {
+    "profit": 128800,
+    "income": 169300,
+    "costs": 40500,
+    "balance": 138800,
+    "active": 3396,
+    "viral": 3386,
+    "seeds": 10
+  },
+  "contracts": {
+    "0": [
+      3057,
+      2263
+    ],
+    "2": [
+      167
+    ],
+    "4": [
+      34
+    ],
+    "15": [
+      1398,
+      3775
+    ],
+    "20": [
+      154
+    ],
+    "21": [
+      2650
+    ],
+    "25": [
+      2745
+    ],
+    "40": [
+      27
+    ]
+  },
+  "daily_nonzero": [
+    {
+      "day": 0,
+      "viral": 0,
+      "bought": [
+        3057,
+        2263
+      ],
+      "balance": 3400,
+      "active": 2
+    },
+    {
+      "day": 1,
+      "viral": 3,
+      "bought": [],
+      "balance": 3550,
+      "active": 5
+    },
+    {
+      "day": 2,
+      "viral": 2,
+      "bought": [
+        167
+      ],
+      "balance": 1850,
+      "active": 8
+    },
+    {
+      "day": 3,
+      "viral": 4,
+      "bought": [],
+      "balance": 2050,
+      "active": 12
+    },
+    {
+      "day": 4,
+      "viral": 12,
+      "bought": [
+        34
+      ],
+      "balance": 2050,
+      "active": 25
+    },
+    {
+      "day": 5,
+      "viral": 9,
+      "bought": [],
+      "balance": 2500,
+      "active": 34
+    },
+    {
+      "day": 6,
+      "viral": 6,
+      "bought": [],
+      "balance": 2800,
+      "active": 40
+    },
+    {
+      "day": 7,
+      "viral": 14,
+      "bought": [],
+      "balance": 3500,
+      "active": 54
+    },
+    {
+      "day": 8,
+      "viral": 20,
+      "bought": [],
+      "balance": 4500,
+      "active": 74
+    },
+    {
+      "day": 9,
+      "viral": 30,
+      "bought": [],
+      "balance": 6000,
+      "active": 104
+    },
+    {
+      "day": 10,
+      "viral": 33,
+      "bought": [],
+      "balance": 7650,
+      "active": 137
+    },
+    {
+      "day": 11,
+      "viral": 41,
+      "bought": [],
+      "balance": 9700,
+      "active": 178
+    },
+    {
+      "day": 12,
+      "viral": 62,
+      "bought": [],
+      "balance": 12800,
+      "active": 240
+    },
+    {
+      "day": 13,
+      "viral": 50,
+      "bought": [],
+      "balance": 15300,
+      "active": 290
+    },
+    {
+      "day": 14,
+      "viral": 53,
+      "bought": [],
+      "balance": 17950,
+      "active": 343
+    },
+    {
+      "day": 15,
+      "viral": 52,
+      "bought": [
+        1398,
+        3775
+      ],
+      "balance": 5250,
+      "active": 397
+    },
+    {
+      "day": 16,
+      "viral": 60,
+      "bought": [],
+      "balance": 8250,
+      "active": 457
+    },
+    {
+      "day": 17,
+      "viral": 68,
+      "bought": [],
+      "balance": 11650,
+      "active": 525
+    },
+    {
+      "day": 18,
+      "viral": 49,
+      "bought": [],
+      "balance": 14100,
+      "active": 574
+    },
+    {
+      "day": 19,
+      "viral": 30,
+      "bought": [],
+      "balance": 15600,
+      "active": 604
+    },
+    {
+      "day": 20,
+      "viral": 29,
+      "bought": [
+        154
+      ],
+      "balance": 16750,
+      "active": 634
+    },
+    {
+      "day": 21,
+      "viral": 31,
+      "bought": [
+        2650
+      ],
+      "balance": 13200,
+      "active": 666
+    },
+    {
+      "day": 22,
+      "viral": 27,
+      "bought": [],
+      "balance": 14550,
+      "active": 693
+    },
+    {
+      "day": 23,
+      "viral": 72,
+      "bought": [],
+      "balance": 18150,
+      "active": 765
+    },
+    {
+      "day": 24,
+      "viral": 110,
+      "bought": [],
+      "balance": 23650,
+      "active": 875
+    },
+    {
+      "day": 25,
+      "viral": 143,
+      "bought": [
+        2745
+      ],
+      "balance": 21200,
+      "active": 1019
+    },
+    {
+      "day": 26,
+      "viral": 97,
+      "bought": [],
+      "balance": 26050,
+      "active": 1116
+    },
+    {
+      "day": 27,
+      "viral": 10,
+      "bought": [],
+      "balance": 26550,
+      "active": 1126
+    },
+    {
+      "day": 28,
+      "viral": 20,
+      "bought": [],
+      "balance": 27550,
+      "active": 1146
+    },
+    {
+      "day": 29,
+      "viral": 50,
+      "bought": [],
+      "balance": 30050,
+      "active": 1196
+    },
+    {
+      "day": 30,
+      "viral": 60,
+      "bought": [],
+      "balance": 33050,
+      "active": 1256
+    },
+    {
+      "day": 31,
+      "viral": 144,
+      "bought": [],
+      "balance": 40250,
+      "active": 1400
+    },
+    {
+      "day": 32,
+      "viral": 106,
+      "bought": [],
+      "balance": 45550,
+      "active": 1506
+    },
+    {
+      "day": 33,
+      "viral": 32,
+      "bought": [],
+      "balance": 47150,
+      "active": 1538
+    },
+    {
+      "day": 34,
+      "viral": 38,
+      "bought": [],
+      "balance": 49050,
+      "active": 1576
+    },
+    {
+      "day": 35,
+      "viral": 27,
+      "bought": [],
+      "balance": 50400,
+      "active": 1603
+    },
+    {
+      "day": 36,
+      "viral": 51,
+      "bought": [],
+      "balance": 52950,
+      "active": 1654
+    },
+    {
+      "day": 37,
+      "viral": 46,
+      "bought": [],
+      "balance": 55250,
+      "active": 1700
+    },
+    {
+      "day": 38,
+      "viral": 25,
+      "bought": [],
+      "balance": 56500,
+      "active": 1725
+    },
+    {
+      "day": 39,
+      "viral": 25,
+      "bought": [],
+      "balance": 57750,
+      "active": 1750
+    },
+    {
+      "day": 40,
+      "viral": 44,
+      "bought": [
+        27
+      ],
+      "balance": 58750,
+      "active": 1795
+    },
+    {
+      "day": 41,
+      "viral": 81,
+      "bought": [],
+      "balance": 62800,
+      "active": 1876
+    },
+    {
+      "day": 42,
+      "viral": 131,
+      "bought": [],
+      "balance": 69350,
+      "active": 2007
+    },
+    {
+      "day": 43,
+      "viral": 91,
+      "bought": [],
+      "balance": 73900,
+      "active": 2098
+    },
+    {
+      "day": 44,
+      "viral": 92,
+      "bought": [],
+      "balance": 78500,
+      "active": 2190
+    },
+    {
+      "day": 45,
+      "viral": 158,
+      "bought": [],
+      "balance": 86400,
+      "active": 2348
+    },
+    {
+      "day": 46,
+      "viral": 47,
+      "bought": [],
+      "balance": 88750,
+      "active": 2395
+    },
+    {
+      "day": 47,
+      "viral": 46,
+      "bought": [],
+      "balance": 91050,
+      "active": 2441
+    },
+    {
+      "day": 48,
+      "viral": 53,
+      "bought": [],
+      "balance": 93700,
+      "active": 2494
+    },
+    {
+      "day": 49,
+      "viral": 76,
+      "bought": [],
+      "balance": 97500,
+      "active": 2570
+    },
+    {
+      "day": 50,
+      "viral": 110,
+      "bought": [],
+      "balance": 103000,
+      "active": 2680
+    },
+    {
+      "day": 51,
+      "viral": 69,
+      "bought": [],
+      "balance": 106450,
+      "active": 2749
+    },
+    {
+      "day": 52,
+      "viral": 127,
+      "bought": [],
+      "balance": 112800,
+      "active": 2876
+    },
+    {
+      "day": 53,
+      "viral": 181,
+      "bought": [],
+      "balance": 121850,
+      "active": 3057
+    },
+    {
+      "day": 54,
+      "viral": 135,
+      "bought": [],
+      "balance": 128600,
+      "active": 3192
+    },
+    {
+      "day": 55,
+      "viral": 152,
+      "bought": [],
+      "balance": 136200,
+      "active": 3344
+    },
+    {
+      "day": 56,
+      "viral": 22,
+      "bought": [],
+      "balance": 137300,
+      "active": 3366
+    },
+    {
+      "day": 57,
+      "viral": 10,
+      "bought": [],
+      "balance": 137800,
+      "active": 3376
+    },
+    {
+      "day": 58,
+      "viral": 12,
+      "bought": [],
+      "balance": 138400,
+      "active": 3388
+    },
+    {
+      "day": 59,
+      "viral": 8,
+      "bought": [],
+      "balance": 138800,
+      "active": 3396
+    }
+  ]
+}
