@@ -1,5 +1,7 @@
 # CU Optimal Seeding Challenge: technical guide
 
+Latest score note: the fresh `fenix` branch reached `140500` with a cheaper constructor-bundle schedule. See `FENIX_LATEST_ANALYSIS.md` for the current best result and comparison against the earlier `130900` candidate.
+
 This guide documents the repository, the competition model, and the optimization
 techniques used in the extended local research pipeline. It is written as a
 practical handoff: what each idea means, why it helps on this graph, how to
@@ -550,4 +552,3 @@ day,node_ids
 58,-1
 59,-1
 ```
-

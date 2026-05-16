@@ -1,12 +1,12 @@
 {
   "result": {
-    "profit": 139450,
-    "income": 169150,
-    "costs": 29700,
-    "balance": 149450,
+    "profit": 140500,
+    "income": 169000,
+    "costs": 28500,
+    "balance": 150500,
     "active": 3396,
-    "viral": 3383,
-    "seeds": 13
+    "viral": 3380,
+    "seeds": 16
   },
   "contracts": {
     "0": [
@@ -15,7 +15,9 @@
       3432
     ],
     "2": [
-      167
+      262,
+      205,
+      138
     ],
     "4": [
       34
@@ -29,7 +31,8 @@
       154
     ],
     "21": [
-      2568
+      1924,
+      2595
     ],
     "25": [
       3428,
@@ -62,17 +65,19 @@
       "day": 2,
       "viral": 2,
       "bought": [
-        167
+        262,
+        205,
+        138
       ],
-      "balance": 2750,
-      "active": 9
+      "balance": 3050,
+      "active": 11
     },
     {
       "day": 3,
-      "viral": 5,
+      "viral": 6,
       "bought": [],
-      "balance": 3000,
-      "active": 14
+      "balance": 3350,
+      "active": 17
     },
     {
       "day": 4,
@@ -80,78 +85,78 @@
       "bought": [
         34
       ],
-      "balance": 3000,
-      "active": 27
+      "balance": 3350,
+      "active": 30
     },
     {
       "day": 5,
-      "viral": 8,
+      "viral": 7,
       "bought": [],
-      "balance": 3400,
-      "active": 35
+      "balance": 3700,
+      "active": 37
     },
     {
       "day": 6,
-      "viral": 7,
+      "viral": 3,
       "bought": [],
-      "balance": 3750,
-      "active": 42
+      "balance": 3850,
+      "active": 40
     },
     {
       "day": 7,
-      "viral": 14,
+      "viral": 8,
       "bought": [],
-      "balance": 4450,
-      "active": 56
+      "balance": 4250,
+      "active": 48
     },
     {
       "day": 8,
-      "viral": 23,
+      "viral": 12,
       "bought": [],
-      "balance": 5600,
-      "active": 79
+      "balance": 4850,
+      "active": 60
     },
     {
       "day": 9,
-      "viral": 35,
+      "viral": 16,
       "bought": [],
-      "balance": 7350,
-      "active": 114
+      "balance": 5650,
+      "active": 76
     },
     {
       "day": 10,
-      "viral": 33,
+      "viral": 22,
       "bought": [],
-      "balance": 9000,
-      "active": 147
+      "balance": 6750,
+      "active": 98
     },
     {
       "day": 11,
-      "viral": 48,
+      "viral": 43,
       "bought": [],
-      "balance": 11400,
-      "active": 195
+      "balance": 8900,
+      "active": 141
     },
     {
       "day": 12,
-      "viral": 72,
+      "viral": 69,
       "bought": [],
-      "balance": 15000,
-      "active": 267
+      "balance": 12350,
+      "active": 210
     },
     {
       "day": 13,
-      "viral": 56,
+      "viral": 53,
       "bought": [],
-      "balance": 17800,
-      "active": 323
+      "balance": 15000,
+      "active": 263
     },
     {
       "day": 14,
       "viral": 56,
       "bought": [],
-      "balance": 20600,
-      "active": 379
+      "balance": 17800,
+      "active": 319
     },
     {
       "day": 15,
@@ -161,36 +166,36 @@
         3953,
         3808
       ],
-      "balance": 9350,
-      "active": 439
+      "balance": 6550,
+      "active": 379
     },
     {
       "day": 16,
       "viral": 63,
       "bought": [],
-      "balance": 12500,
-      "active": 502
+      "balance": 9700,
+      "active": 442
     },
     {
       "day": 17,
       "viral": 63,
       "bought": [],
-      "balance": 15650,
-      "active": 565
+      "balance": 12850,
+      "active": 505
     },
     {
       "day": 18,
       "viral": 28,
       "bought": [],
-      "balance": 17050,
-      "active": 593
+      "balance": 14250,
+      "active": 533
     },
     {
       "day": 19,
       "viral": 23,
       "bought": [],
-      "balance": 18200,
-      "active": 616
+      "balance": 15400,
+      "active": 556
     },
     {
       "day": 20,
@@ -198,145 +203,146 @@
       "bought": [
         154
       ],
-      "balance": 19150,
-      "active": 642
+      "balance": 16350,
+      "active": 582
     },
     {
       "day": 21,
       "viral": 29,
       "bought": [
-        2568
+        1924,
+        2595
       ],
-      "balance": 17600,
-      "active": 672
+      "balance": 15700,
+      "active": 613
     },
     {
       "day": 22,
-      "viral": 71,
+      "viral": 70,
       "bought": [],
-      "balance": 21150,
-      "active": 743
+      "balance": 19200,
+      "active": 683
     },
     {
       "day": 23,
-      "viral": 110,
+      "viral": 111,
       "bought": [],
-      "balance": 26650,
-      "active": 853
+      "balance": 24750,
+      "active": 794
     },
     {
       "day": 24,
-      "viral": 126,
+      "viral": 128,
       "bought": [],
-      "balance": 32950,
-      "active": 979
+      "balance": 31150,
+      "active": 922
     },
     {
       "day": 25,
-      "viral": 92,
+      "viral": 96,
       "bought": [
         3428,
         3143
       ],
-      "balance": 34550,
-      "active": 1073
+      "balance": 32950,
+      "active": 1020
     },
     {
       "day": 26,
-      "viral": 13,
+      "viral": 11,
       "bought": [],
-      "balance": 35200,
-      "active": 1086
+      "balance": 33500,
+      "active": 1031
     },
     {
       "day": 27,
-      "viral": 24,
+      "viral": 17,
       "bought": [],
-      "balance": 36400,
-      "active": 1110
+      "balance": 34350,
+      "active": 1048
     },
     {
       "day": 28,
-      "viral": 88,
+      "viral": 30,
       "bought": [],
-      "balance": 40800,
-      "active": 1198
+      "balance": 35850,
+      "active": 1078
     },
     {
       "day": 29,
-      "viral": 114,
+      "viral": 28,
       "bought": [],
-      "balance": 46500,
-      "active": 1312
+      "balance": 37250,
+      "active": 1106
     },
     {
       "day": 30,
-      "viral": 28,
+      "viral": 41,
       "bought": [],
-      "balance": 47900,
-      "active": 1340
+      "balance": 39300,
+      "active": 1147
     },
     {
       "day": 31,
-      "viral": 66,
+      "viral": 160,
       "bought": [],
-      "balance": 51200,
-      "active": 1406
+      "balance": 47300,
+      "active": 1307
     },
     {
       "day": 32,
-      "viral": 61,
+      "viral": 127,
       "bought": [],
-      "balance": 54250,
-      "active": 1467
+      "balance": 53650,
+      "active": 1434
     },
     {
       "day": 33,
-      "viral": 100,
+      "viral": 80,
       "bought": [],
-      "balance": 59250,
-      "active": 1567
+      "balance": 57650,
+      "active": 1514
     },
     {
       "day": 34,
-      "viral": 43,
+      "viral": 28,
       "bought": [],
-      "balance": 61400,
-      "active": 1610
+      "balance": 59050,
+      "active": 1542
     },
     {
       "day": 35,
-      "viral": 20,
+      "viral": 31,
       "bought": [],
-      "balance": 62400,
-      "active": 1630
+      "balance": 60600,
+      "active": 1573
     },
     {
       "day": 36,
-      "viral": 33,
+      "viral": 67,
       "bought": [],
-      "balance": 64050,
-      "active": 1663
+      "balance": 63950,
+      "active": 1640
     },
     {
       "day": 37,
-      "viral": 15,
+      "viral": 38,
       "bought": [],
-      "balance": 64800,
+      "balance": 65850,
       "active": 1678
     },
     {
       "day": 38,
       "viral": 23,
       "bought": [],
-      "balance": 65950,
+      "balance": 67000,
       "active": 1701
     },
     {
       "day": 39,
       "viral": 40,
       "bought": [],
-      "balance": 67950,
+      "balance": 69000,
       "active": 1741
     },
     {
@@ -345,140 +351,140 @@
       "bought": [
         27
       ],
-      "balance": 69850,
+      "balance": 70900,
       "active": 1804
     },
     {
       "day": 41,
       "viral": 99,
       "bought": [],
-      "balance": 74800,
+      "balance": 75850,
       "active": 1903
     },
     {
       "day": 42,
       "viral": 51,
       "bought": [],
-      "balance": 77350,
+      "balance": 78400,
       "active": 1954
     },
     {
       "day": 43,
       "viral": 65,
       "bought": [],
-      "balance": 80600,
+      "balance": 81650,
       "active": 2019
     },
     {
       "day": 44,
       "viral": 130,
       "bought": [],
-      "balance": 87100,
+      "balance": 88150,
       "active": 2149
     },
     {
       "day": 45,
       "viral": 203,
       "bought": [],
-      "balance": 97250,
+      "balance": 98300,
       "active": 2352
     },
     {
       "day": 46,
       "viral": 41,
       "bought": [],
-      "balance": 99300,
+      "balance": 100350,
       "active": 2393
     },
     {
       "day": 47,
       "viral": 39,
       "bought": [],
-      "balance": 101250,
+      "balance": 102300,
       "active": 2432
     },
     {
       "day": 48,
       "viral": 47,
       "bought": [],
-      "balance": 103600,
+      "balance": 104650,
       "active": 2479
     },
     {
       "day": 49,
       "viral": 73,
       "bought": [],
-      "balance": 107250,
+      "balance": 108300,
       "active": 2552
     },
     {
       "day": 50,
       "viral": 119,
       "bought": [],
-      "balance": 113200,
+      "balance": 114250,
       "active": 2671
     },
     {
       "day": 51,
       "viral": 78,
       "bought": [],
-      "balance": 117100,
+      "balance": 118150,
       "active": 2749
     },
     {
       "day": 52,
       "viral": 127,
       "bought": [],
-      "balance": 123450,
+      "balance": 124500,
       "active": 2876
     },
     {
       "day": 53,
       "viral": 181,
       "bought": [],
-      "balance": 132500,
+      "balance": 133550,
       "active": 3057
     },
     {
       "day": 54,
       "viral": 135,
       "bought": [],
-      "balance": 139250,
+      "balance": 140300,
       "active": 3192
     },
     {
       "day": 55,
       "viral": 152,
       "bought": [],
-      "balance": 146850,
+      "balance": 147900,
       "active": 3344
     },
     {
       "day": 56,
       "viral": 22,
       "bought": [],
-      "balance": 147950,
+      "balance": 149000,
       "active": 3366
     },
     {
       "day": 57,
       "viral": 10,
       "bought": [],
-      "balance": 148450,
+      "balance": 149500,
       "active": 3376
     },
     {
       "day": 58,
       "viral": 12,
       "bought": [],
-      "balance": 149050,
+      "balance": 150100,
       "active": 3388
     },
     {
       "day": 59,
       "viral": 8,
       "bought": [],
-      "balance": 149450,
+      "balance": 150500,
       "active": 3396
     }
   ]
