@@ -707,12 +707,27 @@ def main():
     print("=" * 70)
 
     # -- Load graph ---------------------------------------------------------
-    # Kaggle: adjust path as needed
-    edge_path = "data/marketing_edges.txt"
-    if not Path(edge_path).exists():
-        edge_path = "marketing_edges.txt"
-    if not Path(edge_path).exists():
-        edge_path = "/kaggle/input/network-influence-profit-challenge/marketing_edges.txt"
+    # Try multiple paths (local dev + Kaggle dataset)
+    possible_paths = [
+        "data/marketing_edges.txt",
+        "marketing_edges.txt",
+        "/kaggle/input/network-influence-profit-challenge/marketing_edges.txt",
+        "/kaggle/input/cu-optimal-seeding/marketing_edges.txt",
+    ]
+    # Also glob for any marketing_edges.txt under /kaggle/input/
+    import glob
+    possible_paths += glob.glob("/kaggle/input/**/marketing_edges.txt", recursive=True)
+    edge_path = None
+    for p in possible_paths:
+        if Path(p).exists():
+            edge_path = p
+            break
+    if edge_path is None:
+        raise FileNotFoundError(
+            f"marketing_edges.txt not found! Tried: {possible_paths[:4]}\n"
+            "On Kaggle: add dataset with marketing_edges.txt, it will be at "
+            "/kaggle/input/<dataset-name>/marketing_edges.txt"
+        )
 
     print(f"\nLoading graph from {edge_path}...")
     graph = read_graph(edge_path)
