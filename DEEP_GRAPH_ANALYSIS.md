@@ -388,7 +388,96 @@ marginals   = d['optimal_seeds']['marginal_analysis_after_day0']
 | File | Contents |
 |------|----------|
 | deep_analysis_data.json | Node scores, community analysis, optimal seeds, marginal analysis |
+| SENSITIVITY_ANALYSIS.md | Threshold sensitivity, robustness, interaction effects |
 | PLAN.md | Overall strategy plan with budget timing |
 | RESEARCH.md | Academic IM background (CELF, LT model, Kempe 2003) |
 | COMPETITION.md | Exact competition rules and simulation code |
 | Marketing_Campaign.ipynb | Baseline notebook with graph loader |
+
+---
+
+## 16. CRITICAL FINDING: Seed Overlap (enrichment_analysis.py)
+
+**Nodes 167, 93, and 337 are 100% redundant.**
+
+All three are gateways to the same community 8 (76 nodes). Given the day-0 base seeds:
+- Node 167 alone: +69 marginal viral
+- Node 93 alone: +69 marginal viral  
+- Node 337 alone: +69 marginal viral
+- Pair (167, 93): +69 viral total (synergy = -69, full overlap!)
+- Pair (167, 337): +69 viral total (synergy = -69, full overlap!)
+
+**Conclusion:** Only seed ONE of {167, 93, 337}. Prefer 167 (cheapest at 1,800₽).
+This saves 4,500₽ in budget — enough to afford an additional gateway seed earlier.
+
+---
+
+## 17. New Gateway Nodes for Uncovered Communities
+
+Using Louvain communities (networkx, seed=42 — slightly different partition than python-louvain):
+
+| Community | Size | Current coverage | Best new seed | Profit |
+|-----------|------|-----------------|---------------|--------|
+| 11 | 276 | 30% | **2568** (single) | **+11,900₽** |
+| 19 | 226 | 4% | **[3143, 3428]** (pair) | **+7,750₽** |
+| 7 | 381 | 18% | No profitable single/pair found | — |
+| 25 | 237 | 0.4% | No profitable single/pair found | — |
+| 0 | 229 | 11% | No profitable single/pair found | — |
+| 16 | 180 | 0% | No profitable single/pair found | — |
+
+**Immediate uplift from adding 2568 + [3143, 3428]:** +19,650₽
+
+Communities 7, 25, 0, 16 may require 3-5 seed combos (see solution.py Phase 3).
+
+---
+
+## 18. Sensitivity Analysis Summary
+
+The strategy is **critically dependent on θ = 0.18**:
+
+| Threshold | Full strategy profit | Notes |
+|-----------|---------------------|-------|
+| 0.15 | +133,650₽ | Almost entire graph cascades |
+| 0.16 | +132,750₽ | Similar to 0.15 |
+| 0.17 | +120,000₽ | Node 1304 still fires (862 viral) |
+| **0.18** | **+86,350₽** | **Competition value** |
+| 0.19 | -1,700₽ | **STRATEGY BREAKS** — 1304 only gets 10 viral |
+| 0.20 | -1,800₽ | Same as 0.19 |
+| 0.22 | -23,650₽ | Almost no cascading |
+
+**Key insight:** The jump from θ=0.18 to θ=0.19 is catastrophic.
+Node 1304 drops from 862 viral to 10 viral. The strategy exploits a narrow
+topological threshold window — a 1% change kills the cascade.
+
+---
+
+## 19. Robustness: Seeding Order
+
+All orderings plant the same 11 seeds and reach the same final state (2,302 active).
+But profit differs due to budget timing (when income arrives vs. when costs are paid):
+
+| Ordering | Profit | Last seed day |
+|----------|--------|---------------|
+| Original (cheapest-first temporal) | **90,950₽** | Day 11 |
+| Expensive-first | 90,350₽ | Day 13 |
+| Cheapest-first (flat) | 88,800₽ | Day 12 |
+| Most-profitable-first | 86,350₽ | Day 17 |
+| Reverse | 86,350₽ | Day 15 |
+
+**Spread: only 4,600₽.** The strategy is robust to scheduling changes.
+The original order wins because it seeds 1304 earliest (day 11), maximizing cascade time.
+
+---
+
+## 20. Day-by-Day Marginal Opportunities (Days 2-10)
+
+After fixing the marginal computation (comparing with/without vs. final state):
+
+**The current schedule is already near-optimal for days 2-10.**
+
+Best available marginal seed at each day (given current schedule):
+- Days 2-3: Budget too low (<200₽) for meaningful seeds
+- Days 4-10: Node 154 (deg=1, cost=300) gives +7 viral, profit +50₽ — negligible
+
+**There are NO high-value seeds between days 2-10 that are currently missed.**
+All the real value comes from the day-0 cascade (64K profit) and node 1304 on day 11 (+24.4K).
